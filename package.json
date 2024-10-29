@@ -1,0 +1,15 @@
+{
+  "name": "location-server",
+  "version": "1.0.0",
+  "description": "Backend server to receive geolocation data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "./install.sh" // Optional: Only if you created install.sh
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5"
+  }
+}
+
