@@ -1,15 +1,16 @@
 {
-  "name": "location-server",
-  "version": "1.0.0",
-  "description": "Backend server to receive geolocation data",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "postinstall": "./install.sh" // Optional: Only if you created install.sh
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "cors": "^2.8.5"
-  }
+    "name": "location-server",
+    "version": "1.0.0",
+    "description": "A server to handle geolocation requests",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "install": "./install.sh"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "body-parser": "^1.19.0"
+    },
+    "author": "Your Name",
+    "license": "ISC"
 }
-
